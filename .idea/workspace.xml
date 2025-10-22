@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a062256f-1ea8-4c8e-b19d-973ee72c3a03" name="Changes" comment="Added 'apps' string and additional button">
+    <list default="true" id="a062256f-1ea8-4c8e-b19d-973ee72c3a03" name="Changes" comment="Switching between apps &amp; started working on temperature app">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app-react-basic/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/app-react-basic/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app-react-basic/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app-react-basic/src/App.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,18 +21,18 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Aeroxice"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Aeroxice&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Aeroxice/roy-learns-react.git",
-    "accountId": "4d2fdbdc-33eb-4cec-be9b-daeed65dbd60"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Aeroxice/roy-learns-react.git&quot;,
+    &quot;accountId&quot;: &quot;4d2fdbdc-33eb-4cec-be9b-daeed65dbd60&quot;
   }
-}]]></component>
+}</component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -51,12 +50,14 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "git-widget-placeholder": "counterBranch",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "temperature-converter",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "C:\\Program Files\\JetBrains\\WebStorm 2025.2.3\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -77,6 +78,7 @@
       <workItem from="1761137548552" duration="25000" />
       <workItem from="1761137674746" duration="179000" />
       <workItem from="1761137864487" duration="5639000" />
+      <workItem from="1761165563453" duration="3933000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit fix">
       <option name="closed" value="true" />
