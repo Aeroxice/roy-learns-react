@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a062256f-1ea8-4c8e-b19d-973ee72c3a03" name="Changes" comment="Initial commit fix">
+    <list default="true" id="a062256f-1ea8-4c8e-b19d-973ee72c3a03" name="Changes" comment="One-Button Counter">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app-react-basic/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app-react-basic/src/App.jsx" afterDir="false" />
     </list>
@@ -75,7 +75,7 @@
       <updated>1761137546956</updated>
       <workItem from="1761137548552" duration="25000" />
       <workItem from="1761137674746" duration="179000" />
-      <workItem from="1761137864487" duration="1043000" />
+      <workItem from="1761137864487" duration="1952000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit fix">
       <option name="closed" value="true" />
@@ -85,7 +85,15 @@
       <option name="project" value="LOCAL" />
       <updated>1761138076607</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="One-Button Counter">
+      <option name="closed" value="true" />
+      <created>1761139193542</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1761139193542</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -97,6 +105,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit fix" />
+    <MESSAGE value="One-Button Counter" />
+    <option name="LAST_COMMIT_MESSAGE" value="One-Button Counter" />
   </component>
 </project>
