@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a062256f-1ea8-4c8e-b19d-973ee72c3a03" name="Changes" comment="Switching between apps &amp; started working on temperature app">
+    <list default="true" id="a062256f-1ea8-4c8e-b19d-973ee72c3a03" name="Changes" comment="Temperature App Finished. Works both ways.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app-react-basic/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/app-react-basic/src/App.jsx" afterDir="false" />
     </list>
@@ -16,7 +16,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="temperature-converter" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -51,7 +51,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "temperature-converter",
+    "git-widget-placeholder": "timer",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -78,7 +78,7 @@
       <workItem from="1761137548552" duration="25000" />
       <workItem from="1761137674746" duration="179000" />
       <workItem from="1761137864487" duration="5639000" />
-      <workItem from="1761165563453" duration="3933000" />
+      <workItem from="1761165563453" duration="6535000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit fix">
       <option name="closed" value="true" />
@@ -104,7 +104,15 @@
       <option name="project" value="LOCAL" />
       <updated>1761140064166</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Temperature App Finished. Works both ways.">
+      <option name="closed" value="true" />
+      <created>1761170000551</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1761170000551</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,6 +126,7 @@
     <MESSAGE value="Initial commit fix" />
     <MESSAGE value="One-Button Counter" />
     <MESSAGE value="Added 'apps' string and additional button" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added 'apps' string and additional button" />
+    <MESSAGE value="Temperature App Finished. Works both ways." />
+    <option name="LAST_COMMIT_MESSAGE" value="Temperature App Finished. Works both ways." />
   </component>
 </project>

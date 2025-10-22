@@ -1,17 +1,17 @@
-import { useState } from 'react'
+import { useState, useRef } from 'react'
 import './App.css'
 
 function App() {
     //Switch Apps
-    const apps = ["Counter", "Temperature Converter", "No More Apps"]
+    const apps = ["Counter", "Temperature Converter", "Timer", "No More Apps"]
     const [currentApp, setCurrentApp] = useState(0)
 
     //Counter
     const [count, setCount] = useState(0)
 
     //Temperature Converter
-    const celsiusInput = document.getElementById("Celsius")
-    const fahrenheitInput = document.getElementById("Fahrenheit")
+    const celsiusRef = useRef(null)
+    const fahrenheitRef = useRef(null)
 
     //Switch Apps
     function handleApp(){
@@ -24,13 +24,13 @@ function App() {
 
     //Temperature Converter
     function updateFahrenheit(){
-        const celsiusTemp = parseFloat(celsiusInput.value)
-        fahrenheitInput.value = parseFloat(celsiusTemp * (9/5) + 32)
+        const celsiusTemp = parseFloat(celsiusRef.current.value)
+        fahrenheitRef.current.value = parseFloat(celsiusTemp * (9/5) + 32)
     }
 
     function updateCelcius(){
-        const fahrenheitTemp = parseFloat(fahrenheitInput.value)
-        celsiusInput.value = parseFloat((fahrenheitTemp - 32) * (5/9))
+        const fahrenheitTemp = parseFloat(fahrenheitRef.current.value)
+        celsiusRef.current.value = parseFloat((fahrenheitTemp - 32) * (5/9))
     }
 
 
@@ -63,7 +63,7 @@ function App() {
                 <h2>{apps[currentApp]}</h2>
                 <ul className={'list'}>
                     <li>
-                        <input type="number" id="Celsius" name="Celsius" onInput={updateFahrenheit}/> Celsius = <input type="number" id="Fahrenheit" name="Fahrenheit" onInput={updateCelcius}/> Fahrenheit
+                        <input type="number" ref={celsiusRef} name="Celsius" onInput={updateFahrenheit}/> Celsius = <input type="number" ref={fahrenheitRef} name="Fahrenheit" onInput={updateCelcius}/> Fahrenheit
                     </li>
                     <li>
                         <button className={'button'} onClick={() => handleApp()}>
@@ -92,7 +92,21 @@ function App() {
                 </ul>
             </>
         )
-    }
+    }else if(currentApp === 3){
+    return (
+        <>
+            <h1>Roy Learns React</h1>
+            <h2>{apps[currentApp]}</h2>
+            <ul className={`list`}>
+                <li>
+                    <button className={'button'} onClick={() => handleApp()}>
+                        First app
+                    </button>
+                </li>
+            </ul>
+        </>
+    )
+}
 
 }
 
